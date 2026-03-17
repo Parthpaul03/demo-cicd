@@ -1,11 +1,11 @@
 package com.example;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class AppTest {
 
-    @Test
+    @Test // This annotation indicates that the following method is a test case
     void testAddition() {
         App app = new App();
         assertEquals(5, app.add(2, 3));
